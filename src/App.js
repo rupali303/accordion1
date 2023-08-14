@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Todo from "./Todo/Main"
+import Project from "./Project/Main"
+import Project1 from "./Project1/Main"
+import Redux from "./Redux/Main"
+import TaskFive from "./TaskFive/Main"
+import Project2 from "./Project2/Main"
+import Task1 from "./Task1/Main"
+import TaskThree from "./TaskThree/Main"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+function App(){
+  return(
+    <>
+{/* <Todo/> */}
+  {/* <Project/> */}
+  {/* <Project1/> */}
+{/* <Redux/> */}
+{/* <TaskFive/> */}
+{/* <Project2/> */}
+{/* <Task1/> */}
+<TaskThree/>
+  </>
   );
 }
 
-export default App;
+export default App
